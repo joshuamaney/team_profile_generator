@@ -2,6 +2,10 @@
 
   [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
+  ## Walkthrough Video
+    
+  you can view the walkthrough video on [youtube](https://youtu.be/89x8hjfGN-M)
+
   ## Description
 
   This is a command-line application that collects user information about their given team and generates an HTML file from that input.
