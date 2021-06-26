@@ -41,7 +41,7 @@ function intern() {
 }
 
 function addQs() {
-  inquirer.prompt(moreQs).then((response) => {
+  inquirer.prompt(questions).then((response) => {
     switch (response.add) {
       case "Engineer":
         engineer();
