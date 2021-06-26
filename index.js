@@ -3,7 +3,6 @@ const fs = require("fs");
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
-const Employee = require("./lib/Employee");
 const generateTeam = require("./src/page-template");
 const team = [];
 
@@ -41,8 +40,8 @@ function intern() {
 }
 
 function addQs() {
-  inquirer.prompt(questions).then((response) => {
-    switch (response.add) {
+  inquirer.prompt(questions).then((res) => {
+    switch (res.add) {
       case "Engineer":
         engineer();
         break;
